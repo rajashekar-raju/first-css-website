@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Braah One', sans-serif;
+    background-color: rgb(31,31,31);
+    color: white;
+}
+.head-content {
+    display: flex;
+    margin: 10px 15px;
+    justify-content: space-between;
+}
+.div-content {
+    display: flex;
+    gap: 70px;
+    margin-right: 40px;
+    align-items: center;
+    width: 80%;
+}
+.div-content input {
+    width: 60%;
+    flex-grow: 1;
+    background-color: #262626;
+    padding: 15px 10px;
+    border: none;
+    border-radius: 10px;
+}
+.div-content button {
+    background-color: #262626;
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+
+}
+
+
+.panel-content {
+    background-color: #262626;
+    padding: 20px;
+    margin: 20px 50px;
+    height: 588px;
+    width: 93%;
+    border-radius: 50px;
+}
+.div-panel-content {
+    display: flex;
+    justify-content: space-between;
+}
+.header-1 {
+   padding-top: 50px;
+    padding-left: 25px;
+}
+.panel-left {
+    margin-top: 15px;
+}
+
+.panel-left > .common-panel {
+    display: flex;
+    gap: 25px;
+    margin-top: 20px;
+    align-items: center;
+}
+.panel-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.right-btn {
+    background-color: #FECB03;
+    color: rgba(38, 38, 38, 1);
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 900;
+}
+
+.categories-section {
+    margin: 20px 50px;
+}
+.left-first-box {
+    display: flex;
+    /* flex-flow: row wrap; */
+}
+.right-box {
+    display: flex;
+}
+
+.boxes {
+    
+    margin-top: 20px;
+    
+    padding: 50px;
+    gap: 10px;
+    margin-left: 5px;
+}
+.box {
+    width: 30%;
+    height: 360px;
+    border: 3px solid #262626;
+    margin: 10px 20px;
+    gap: 30px;
+    padding: 35px;
+    padding-left: 65px;
+    padding-right: 73px;
+    position: relative;
+    border-radius: 20px;
+    
+}
+.box button{
+    background-color: #FECB03;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    border: none;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.foot-content {
+    height: 200px;
+    width: 90%;
+    background-color: #262626;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+.div-foot-content {
+    display: flex;
+   padding: 20px;
+   /* justify-content: space-evenly; */
+   gap: 215px;
+}
+.div-foot-content .left-foot {
+    width: 32%;
+}
+.middle-foot a {
+        text-decoration: none;
+        display: block;
+        color: white;
+}
+.right-foot a {
+    text-decoration: none;
+    display: block;
+    color: white;
+}
